@@ -1,0 +1,132 @@
+/* ===== Body & Layout ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdf6f0;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* ===== Navigation Bar ===== */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #cc3366;
+  padding: 10px 20px;
+  color: white;
+  z-index: 100;
+}
+
+.logo {
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Container ===== */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== Main Heading ===== */
+#main-title {
+  text-align: center;
+  color: #cc3366;
+  margin-bottom: 20px;
+}
+
+/* ===== Centered Main Image ===== */
+.center-image {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.center-image:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* ===== Paragraph ===== */
+.intro {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* ===== Section Titles ===== */
+.section-title {
+  color: #cc3366;
+  margin-top: 20px;
+}
+
+/* ===== Lists ===== */
+.flower-list {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.flower-list li:hover {
+  color: #cc0066;
+  cursor: pointer;
+}
+
+/* ===== Gallery ===== */
+#gallery h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 250px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #cc3366;
+  color: white;
+  margin-top: 30px;
+  border-radius: 0 0 15px 15px;
+}
